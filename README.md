@@ -12,6 +12,8 @@ Basic React app that generates the lighter and darker/heavier values or colors o
 
 *   Tints are made by mixing base color with white color whereas Shades are made by mixing base color with black color depending upon the weight.
 
+*   User can also copy the value of any color by clicking on that color.
+
 ## Technical
 
 *   This application is built on ReactJS.
