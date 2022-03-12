@@ -4,6 +4,8 @@
 
 Basic React app that generates the lighter and darker/heavier values or colors of a base color.
 
+![Color Generator App](https://github.com/sudarshan-sh/ColorGeneratorApp/blob/main/images/color-generator-app.png)
+
 ## Functional
 
 *   Each color generated from a base color either lighter i.e., tints or heavier i.e., shades is specified by the weight.
