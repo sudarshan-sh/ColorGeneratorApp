@@ -5,9 +5,95 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #f1f5f8;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* **************** */
+
+.container{
+  display: flex;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    padding-left: 2rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 2.25rem;
+}
+
+.container h3{
+  margin-right: 2rem;
+    font-size: 1.75rem;
+    text-transform: capitalize;
+    margin-top: 3rem;
+} 
+
+form{
+  margin-top: 1.25rem;
+}
+
+input, .btn {
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+}
+
+input{
+  margin-right: 0.5rem;
+  border-radius: 0.25rem;
+    border: 0.1rem solid black;
+}
+
+input.error {
+  border: 2px solid rgb(187, 37, 37);
+}
+
+.btn{
+  text-transform: capitalize;
+  background: #49a6e9;
+  color: white;
+  border: transparent;
+  border-radius: 0.25rem;
+    line-height: 1.4;
+    cursor: pointer;
+}
+
+.colors{
+  display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+}
+
+.color{
+  padding: 0 2rem;
+  height: 100px;
+  cursor: pointer;
+}
+
+.percent-value{
+  margin-bottom: 0;
+}
+
+.color-value{
+  margin-top: 0.5rem;
+  color: hsl(209, 61%, 16%);
+}
+
+.color-light .color-value {
+  color: white;
+}
+.color-light .percent-value {
+  color: white;
+}
+
+.alert {
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+}
+
+p {
+  color: #617d98;
 }
